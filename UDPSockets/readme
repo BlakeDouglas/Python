@@ -1,0 +1,6 @@
+This program simulates a UDP Pinger from a client to a server with 10 messages
+and a 1 second timeout time for the server to respond. While sending the message,
+it calculates the round trip time for all of the messages and outputs 
+the max, min, and average for the messages that were returned.
+To help simulate the UDP connection, the server ignores the client request 
+randomly 30% of the time.
